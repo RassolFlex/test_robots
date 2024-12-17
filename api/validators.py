@@ -6,6 +6,10 @@ from robots.models import Robot
 
 
 def validate_data(data):
+    """
+    Валидация входящих данных при добавлении робота.
+    """
+
     FIELDS = ('model', 'version', 'created')
     FORMAT = '%Y-%m-%d %H:%M:%S'
 
